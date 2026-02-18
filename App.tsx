@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
 import { AppView, User } from './types';
-import Auth from './components/Auth';
-import Dashboard from './components/Dashboard';
-import Settings from './components/Settings';
-import Navigation from './components/Navigation';
+import Auth from './components/Auth.tsx';
+import Dashboard from './components/Dashboard.tsx';
+import Settings from './components/Settings.tsx';
+import Navigation from './components/Navigation.tsx';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<AppView>(AppView.AUTH);
